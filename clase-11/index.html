@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://bootswatch.com/5/vapor/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <form id="idForm">
+            <h3>Formulario Tareas</h1><br>
+            <div class="mb-3">
+              <label for="idNombre" class="form-label">Nombre Tarea</label>
+              <input type="text" class="form-control" id="idNombre" name="nombre">
+            </div>
+            <div class="mb-3">
+              <label for="idTexto" class="form-label">Texto Tarea</label>
+              <input type="text" class="form-control" id="idTexto" name="texto">
+            </div>
+            <button type="submit" class="btn btn-dark">Crear Tarea</button><br><br>
+          </form>
+    </div>
+    <button id="idBotonTarea" class="btn btn-secondary">Mostrar tareas</button><br><br>
+    <div id="divTareas" class="container row"></div>
+    <script src="script.js"></script>
+</body>
+</html>
